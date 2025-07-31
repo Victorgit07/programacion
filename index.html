@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reserva 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="menu">
+    <div class="menu-titulo">Rock fest</div>
+    <ul class="menu-opciones">
+      <li><a href="">Inicio</a></li>
+      <li><a href="">Entradas</a></li>
+      <li><a href="">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="recuadro">
+    <h1>Reserva 2025</h1>
+
+    <form id="Formulario">
+      <h2>Nombre:</h2>
+      <input type="text" id="nombre" placeholder="Nombre" />
+
+      <h2>Cantidad de Entradas:</h2>
+      <input type="number" id="ce" min="1" placeholder="Cantidad de entradas" />
+
+      <h2>Tipo de Entrada:</h2>
+      <select id="tipo">
+        <option value="">Selecciona tipo</option>
+        <option value="general">General $1000</option>
+        <option value="vip">VIP $2000</option>
+      </select>
+
+      <h2>Codigo de Descuento:</h2>
+      <input type="text" id="codigo" placeholder="Ingresa ROCK10" />
+
+      <button type="button" onclick="calcularTotal()">Calcular Total</button>
+    </form>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

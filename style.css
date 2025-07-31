@@ -1,0 +1,114 @@
+body {
+  background-color: #111;
+  color: #ffd000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  padding-top: 60px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.recuadro {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 12px;
+  width: 280px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #ffd000;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;   
+}
+
+button:hover {
+  background-color: #ffd000;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.menu {
+  width: 100%;
+  background-color: #222;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.menu-titulo {
+  color: #ffd000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu-opciones {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-opciones li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu-opciones li a:hover {
+  color: #fff;
+}
+
+body {
+  background-image: url("rock-n-roll-seamless-pattern-print-for-textiles-backgrounds-printing-grunge-style-hand-lettered-illustration-vector.jpg"); /* Ruta de la imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;   
+}
+
